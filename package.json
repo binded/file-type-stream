@@ -1,7 +1,7 @@
 {
   "name": "file-type-stream",
   "version": "1.0.0",
-  "description": "",
+  "description": "Wrapper over file-type that makes using it with streams easier.",
   "main": "./lib/index.js",
   "directories": {
     "test": "test"
@@ -35,8 +35,11 @@
     "babel-preset-blockai": "^1.0.0",
     "babel-tape-runner": "^2.0.1",
     "blue-tape": "^1.0.0",
+    "common-streams": "^1.4.0",
+    "concat-stream": "^1.5.2",
     "cz-conventional-changelog": "^1.2.0",
     "eslint-config-blockai": "^1.0.1",
+    "kitchenfile": "^1.0.2",
     "nodemon": "^1.10.2",
     "rimraf": "^2.5.4",
     "semantic-release": "^4.3.5"
@@ -51,5 +54,8 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "file-type": "^3.8.0"
   }
 }
